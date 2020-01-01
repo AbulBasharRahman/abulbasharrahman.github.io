@@ -713,29 +713,7 @@ p {
   max-width: 430px;
   margin: 0 auto;
   position: relative; }
-  .header-image::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 82%;
-    border: 20px solid #27ae60;
-    border-bottom: 0;
-    top: 50%;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%); }
-  .header-image::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 20px;
-    background-color: #27ae60;
-    left: 0;
-    bottom: 58px;
-    z-index: 11; }
+
   .header-image img {
     position: relative;
     z-index: 5; }
@@ -766,13 +744,14 @@ p {
       .header-social .header-social-icon ul li:first-child {
         margin-left: 0; }
       .header-social .header-social-icon ul li a {
-        color: #ccc;
+        color: #fff;
         font-size: 20px;
         width: 40px;
         height: 40px;
         line-height: 40px;
+        background-color: #27ae60;
         border-radius: 50%;
-        border: 1px solid #ccc;
+        border: 1px solid #27ae60;
         -webkit-transition: all 0.3s ease-out 0s;
         -moz-transition: all 0.3s ease-out 0s;
         -ms-transition: all 0.3s ease-out 0s;
@@ -780,8 +759,8 @@ p {
         transition: all 0.3s ease-out 0s;
         text-align: center; }
         .header-social .header-social-icon ul li a:hover {
-          color: #fff;
-          background-color: #27ae60;
+          color: #27ae60;
+          background-color: #fff;
           border-color: #27ae60; }
 
 /*===========================
@@ -937,7 +916,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(117, 78, 249, 0.7);
+    background-color: rgba(39, 174, 96, 0.7);
     z-index: -1; }
 
 .call-action-content .action-title {
@@ -999,7 +978,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(117, 78, 249, 0.8);
+    background-color: rgba(39, 174, 96, 0.8);
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -1336,12 +1315,12 @@ p.form-message.success, p.form-message.error {
   background-color: #152136; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-widget {
-      padding-top: 100px;
-      padding-bottom: 100px; } }
+      padding-top: 40px;
+      padding-bottom: 50px; } }
   @media (max-width: 767px) {
     .footer-widget {
-      padding-top: 80px;
-      padding-bottom: 80px; } }
+      padding-top: 40px;
+      padding-bottom: 50px; } }
 
 .footer-content p {
   color: #fff;
